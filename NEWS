@@ -1,5 +1,6 @@
-ensembleEN 1.1.2
-==============
+# RPEIF 1.0.0
+* Initial stable release of package.
 
-* Add new test, fix old ones, specially the objective function test.
-* Decrease default tolerance.
+# SplitReg 1.0.1
+* Fix CRAN issues.
+
