@@ -1,8 +1,8 @@
 Package: SplitReg
 Type: Package
 Title: Split Regularized Regression
-Version: 1.0.1
-Date: 2020-01-12
+Version: 1.0.2
+Date: 2020-02-05
 Author: Anthony Christidis <anthony.christidis@stat.ubc.ca>,
     Ezequiel Smucler <ezequiels.90@gmail.com>,
     Ruben Zamar <ruben@stat.ubc.ca>
@@ -20,6 +20,6 @@ LinkingTo: Rcpp, RcppArmadillo
 Suggests: testthat, glmnet, MASS
 NeedsCompilation: yes
 RoxygenNote: 7.0.2
-Packaged: 2020-01-14 11:25:27 UTC; antho
+Packaged: 2020-02-05 18:06:42 UTC; antho
 Repository: CRAN
-Date/Publication: 2020-01-16 23:50:07 UTC
+Date/Publication: 2020-02-05 18:50:02 UTC
