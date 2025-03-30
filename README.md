@@ -1,5 +1,7 @@
 
-[![Build Status](https://travis-ci.com/AnthonyChristidis/SplitReg.svg?branch=master)](https://travis-ci.com/AnthonyChristidis/SplitReg) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/SplitReg)](https://cran.r-project.org/package=SplitReg) [![Downloads](http://cranlogs.r-pkg.org/badges/SplitReg)](https://cran.r-project.org/package=SplitReg)
+[![Build Status](https://app.travis-ci.com/AnthonyChristidis/SplitReg.svg?branch=master)](https://app.travis-ci.com/AnthonyChristidis/SplitReg) 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/SplitReg)](https://cran.r-project.org/package=SplitReg) 
+[![Downloads](http://cranlogs.r-pkg.org/badges/SplitReg)](https://cran.r-project.org/package=SplitReg)
 
 SplitReg
 ========

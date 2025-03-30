@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // Ensemble_EN_Objective
 double Ensemble_EN_Objective(const arma::mat& current_res, const arma::mat& beta, const double& lambda_sparsity, const double& lambda_diversity, const double& alpha);
 RcppExport SEXP _SplitReg_Ensemble_EN_Objective(SEXP current_resSEXP, SEXP betaSEXP, SEXP lambda_sparsitySEXP, SEXP lambda_diversitySEXP, SEXP alphaSEXP) {
